@@ -161,11 +161,13 @@ public:
 
 	// Write to the SPI bus (MOSI pin) and also receive (MISO pin)
 	uint8_t transfer(uint8_t data) {
+		return 0;
 	}
 	uint16_t transfer16(uint16_t data) {
-
+		return 0;
 	}
     uint32_t transfer32(uint32_t data) {
+		return 0;
     }
 
 	void inline transfer(void *buf, size_t count) {
